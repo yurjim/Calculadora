@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3,4">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textoInicial"
+            style="@style/TextoPrincipal"
+            android:layout_span="4"
+            android:text="@string/textoInicio"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonC"
+            style="@style/ButtonC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/buttonClear"></Button>
+
+        <Button
+            android:id="@+id/buttonMM"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonMasMenos"></Button>
+
+        <Button
+            android:id="@+id/buttonP"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonPorcentaje"></Button>
+
+        <Button
+            android:id="@+id/buttonD"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonDivisión"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/ButtonNumeros"
+            android:text="@string/button7"></Button>
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/ButtonNumeros"
+            android:text="@string/button8"></Button>
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/ButtonNumeros"
+            android:text="@string/button9"
+            app:shapeAppearance="@style/ButtonOpe"></Button>
+
+        <Button
+            android:id="@+id/buttonX"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonX"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/ButtonNumeros"
+            android:text="@string/button4"></Button>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/ButtonNumeros"
+            android:text="@string/button5"></Button>
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/ButtonNumeros"
+            android:text="@string/button6"></Button>
+
+        <Button
+            android:id="@+id/buttonMenos"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonMenos"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonNumeros"
+            android:text="@string/button1"></Button>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonNumeros"
+            android:text="@string/button2"></Button>
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/ButtonNumeros"
+            android:text="@string/button3"></Button>
+
+        <Button
+            android:id="@+id/buttonMas"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonMas"></Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/ButtonNumeros"
+            android:layout_span="2"
+            android:text="@string/button0"></Button>
+
+        <Button
+            android:id="@+id/buttonComa"
+            style="@style/ButtonNumeros"
+            android:text="@string/buttonComa"></Button>
+
+        <Button
+            android:id="@+id/buttonIgual"
+            style="@style/ButtonOpe"
+            android:text="@string/buttonIgual"></Button>
+    </TableRow>
+
+
+</TableLayout>
